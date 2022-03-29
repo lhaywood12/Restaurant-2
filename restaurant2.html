@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="restaurant.css">
+    <title>Restaurant</title>
+</head>
+<body>
+    <header class="header" id="header">
+        <section class="social-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <ul class="soc-list nav">
+                            <li class="soc-item nav-item"><a href="#link" class="nav-link">instagram</a></li>
+                            <li class="soc-item nav-item"><a href="#link" class="nav-link">twitter</a></li>
+                            <li class="soc-item nav-item"><a href="#link" class="nav-link">facebook</a></li>
+                            <li class="soc-item nav-item"><a href="#link" class="nav-link">pinterest</a></li>
+                            <li class="soc-item nav-item"><a href="#link" class="nav-link">linkedin</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="top-nav-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <h1 class="logo">restaurant</h1>
+                    </div>
+                    <div class="col-md-7">
+                        <!-- display none on small; display on medium -->
+                        <nav class="top-nav d-none d-md-block">
+                            <ul class="top-nav-list nav">
+                                <li class="top-nav-item nav-item"><a href="#link" class="nav-link">about</a></li>
+                                <li class="top-nav-item nav-item"><a href="#link" class="nav-link">events</a></li>
+                                <li class="top-nav-item nav-item"><a href="#restaurantmenu" class="nav-link">menu</a></li>
+                                <li class="top-nav-item nav-item"><a href="#link" class="nav-link">gallery</a></li>
+                                <li class="top-nav-item nav-item"><a href="#link" class="nav-link">contacts</a></li>
+                                <li class="top-nav-item nav-item"><a href="#link" class="nav-link">blog</a></li>
+                            </ul>
+                        </nav>
+                        <!-- display on small; display none on medium -->
+                        <div class="dropdown-div d-sm-block d-md-none">
+                            <select name="top-nav" id="topNav">
+                                <option value="">Choose an option...</option>
+                                <option value="about">about</option>
+                                <option value="events">events</option>
+                                <option value="menu">menu</option>
+                                <option value="gallery">gallery</option>
+                                <option value="contacts">contacts</option>
+                                <option value="blog">blog</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="solgan-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="slogan">
+                            <p class="slogan-text">top quality ingredients only in our kitchen</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <form action="#link">
+                            <input type="search" value="">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main class="main" id="main">
+        <section class="carousel-section">
+            <div class="container">
+                <!-- put carousel here -->
+                <h2 class="hero-image">salad of the day</h2>
+                <div class="promo-div">
+                    <h2 class="promo-header">What is inside?</h2>
+                    <p class="promo-text">This is the best thai dish</p>
+                </div>
+                <img src="https://via.placeholder.com/1040x600" alt="placeholder img" class="img-fluid">
+            </div>
+        </section>
+        <section class="figure-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <figure class="figure">
+                            <img src="https://via.placeholder.com/300x270" alt="placeholder img" class="img-fluid">
+                            <figcaption>
+                                <h2 class="figcaption-header">Lorem, ipsum.</h2>
+                                <p class="figcaption-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-md-4">
+                        <figure class="figure">
+                            <img src="https://via.placeholder.com/300x270" alt="placeholder img" class="img-fluid">
+                            <figcaption>
+                                <h2 class="figcaption-header">Lorem, ipsum.</h2>
+                                <p class="figcaption-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-md-4">
+                        <figure class="figure">
+                            <img src="https://via.placeholder.com/300x270" alt="placeholder img" class="img-fluid">
+                            <figcaption>
+                                <h2 class="figcaption-header">Lorem, ipsum.</h2>
+                                <p class="figcaption-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <figure class="figure">
+                            <img src="https://via.placeholder.com/300x270" alt="placeholder img" class="img-fluid">
+                            <figcaption>
+                                <h2 class="figcaption-header">Lorem, ipsum.</h2>
+                                <p class="figcaption-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-md-4">
+                        <figure class="figure">
+                            <img src="https://via.placeholder.com/300x270" alt="placeholder img" class="img-fluid">
+                            <figcaption>
+                                <h2 class="figcaption-header">Lorem, ipsum.</h2>
+                                <p class="figcaption-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-md-4">
+                        <figure class="figure">
+                            <img src="https://via.placeholder.com/300x270" alt="placeholder img" class="img-fluid">
+                            <figcaption>
+                                <h2 class="figcaption-header">Lorem, ipsum.</h2>
+                                <p class="figcaption-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="offer-section">
+            <div class="container">
+                <div class="row">
+                    <h2 class="sub-header">reservations and orders may be placed anytime</h2>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 col-md-4">
+                        <div class="offer-div">
+                            <h2 class="offer-header">
+                                <img src="https://via.placeholder.com/40x40" alt="placeholder img" class="img-fluid">
+                                <span class="small">offer one</span>Lorem, ipsum dolor.
+                            </h2>
+                            <p class="offer-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt sed ea enim voluptatum animi doloribus similique nostrum voluptate quisquam neque! Earum iure, saepe vel quaerat, optio vitae, adipisci assumenda neque corporis delectus voluptas tempore unde. Sequi unde repellat est pariatur!</p>
+                            <a href="#link">click here</a>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <div class="offer-div">
+                            <h2 class="offer-header">
+                                <img src="https://via.placeholder.com/40x40" alt="placeholder img" class="img-fluid">
+                                <span class="small">offer two</span>Lorem, ipsum dolor.
+                            </h2>
+                            <p class="offer-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt sed ea enim voluptatum animi doloribus similique nostrum voluptate quisquam neque! Earum iure, saepe vel quaerat, optio vitae, adipisci assumenda neque corporis delectus voluptas tempore unde. Sequi unde repellat est pariatur!</p>
+                            <a href="#link">click here</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 d-none d-md-block">
+                        <div class="offer-div">
+                            <h2 class="offer-header">
+                                <img src="https://via.placeholder.com/40x40" alt="placeholder img" class="img-fluid">
+                                <span class="small">offer three</span>Lorem, ipsum dolor.
+                            </h2>
+                            <p class="offer-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt sed ea enim voluptatum animi doloribus similique nostrum voluptate quisquam neque! Earum iure, saepe vel quaerat, optio vitae, adipisci assumenda neque corporis delectus voluptas tempore unde. Sequi unde repellat est pariatur!</p>
+                            <a href="#link">click here</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer" id="footer">
+        <section class="client-section">
+            <div class="clients container">
+                <div class="row">
+                    <ul class="client-list nav nav-fill">
+                        <li class="client-item nav-item">client logo</li>
+                        <li class="client-item nav-item">client logo</li>
+                        <li class="client-item nav-item d-none d-md-inline">client logo</li>
+                        <li class="client-item nav-item d-none d-md-inline">client logo</li>
+                        <li class="client-item nav-item d-none d-md-inline">client logo</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="info-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="footer-info">
+                            <h2 class="footer-about-header">about us</h2>
+                            <p class="footer-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem cum et fuga nobis odit, possimus ut sint illum eius enim.</p>
+                            <p class="footer-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas ullam natus aperiam explicabo libero ducimus consectetur, dicta eligendi. Consectetur accusantium placeat quos rem deleniti rerum explicabo, dolorum non, cumque sequi, similique quasi pariatur temporibus veniam?</p>
+                            <a href="#link" class="read-more">read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="footer-info">
+                        <h2 class="footer-blog-header">our blog</h2>
+                        <ul class="blog-list">
+                            <li class="footer-blog-item">
+                                <h3 class="blog-subheader">blah blah blah blah</h3>
+                                <p class="footer-blog-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente ad rerum quasi aspernatur nisi voluptas.</p>
+                            </li>
+                            <li class="footer-blog-item">
+                                <h3 class="blog-subheader">blah blah blah blah</h3>
+                                <p class="footer-blog-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente ad rerum quasi aspernatur nisi voluptas.</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="footer-info">
+                        <h2 class="flicker-header">our flicker</h2>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="footer-info">
+                        <h2 class="footer-contact-header">get in touch</h2>
+                        <ul class="contact-list">
+                            <li class="contact-list-item">123 Sesame Street</li>
+                            <li class="contact-list-item">Jackson, MS 39201</li>
+                            <li class="contact-list-item">Phone: <a href="#link">1-800-777-9311</a></li>
+                            <li class="contact-list-item">Mobile: <a href="#link">601-867-5309</a></li>
+                            <li class="contact-list-item">Fax: <a href="#link">601-222-2222</a></li>
+                            <li class="contact-list-item"><a href="#link">myemail@email.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="colophon-section">
+            <div class="colophon container">
+                <h1 class="footer-logo">restaurant</h1>
+                <p class="colophon-text">site by turner &copy;2021</p>
+            </div>
+        </section>
+    </footer>
+
+</body>
+</html>

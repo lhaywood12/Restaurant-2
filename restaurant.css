@@ -1,0 +1,170 @@
+body{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+/* header */
+
+.social-section{
+    background-color:var(--prime) ;
+}
+
+.soc-link{
+    color: var(--sec);
+    transition: color 0.5s ease;
+}
+.soc-link:hover{
+    color: var(--clientText);
+}
+
+.top-nav-section{
+    background: var(--topNav);
+    padding: 40px 0;
+}
+
+.logo{
+    color:white;
+    font-family: var(--workSans);
+    font-size: 36px;
+    font-weight: 700;
+    text-transform:capitalize;
+}
+
+@media (max-width: 767px){
+    .logo{
+        font-size: 3.4em;
+    }
+}
+
+.dropdown-div select {
+    margin: 10px auto;
+    padding: 10px 0;
+    width: 100%;
+}
+
+.slogan-section{
+    padding: 40px 0;
+    background-color: var(--sec);
+}
+
+.slogan-text{
+    color: var(--textColor);
+    font-family: var(--workSans);
+    font-size: calc(14px + (24-14) *((100vw-300px)/(1600 - 300)));
+    font-style: italic;
+    font-weight: 100;
+}
+
+@media (max-width: 767px) {
+    .slogan-text{
+        font-size: 36px;
+    }
+}
+
+input{
+    margin: 20px 10% auto;
+    width: 80%;
+    background-color: var(--sec);
+    border-color:var(--textColor);
+}
+
+/* main */
+
+.carousel-section{
+    position: relative;
+    margin-bottom: 40px;
+    min-height: 330px;
+    box-shadow: 5px 5px 5px #ddd;
+}
+
+
+
+.background-div{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-size: cover;
+    opacity: 0.80;
+}
+
+.my-carousel{
+    position: absolute;
+    top: 0;
+    right: 2%;
+    left: 2%;
+    bottom: 0;
+}
+
+.figure-section{
+    background-color: var(--figureBg);
+}
+
+.figure{
+    background: #fff;
+    box-shadow: 5px 5px 5px #ddd;
+}
+
+.figcaption-header{
+    margin-top: 16;
+    margin-bottom: 0;
+    padding-left: 8px;
+    text-transform: uppercase;
+}
+
+.top-header {
+    /*border: 3px solid black;*/
+    padding: 35px;
+    text-align: center;
+    background: rgb(241, 36, 36);
+}
+
+.top-nav {
+    /*border: 3px solid blue;*/
+    padding:10px;
+    text-align: center;
+    background: rgb(241, 171, 79);
+}
+
+.figure2-section {
+    /*border: 3px solid aqua;*/
+    padding: 45px;
+    background: rgb(236, 219, 197);
+}
+
+.figcaption-text {
+    text-align: center;
+    font-size: 20px;
+}
+
+.figure {
+    border-top: 3px solid red;
+    border-bottom: 3px solid red;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.add-button{
+    border: 3px soild green;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    margin-left: 150px;
+    margin-top: 8px;
+    
+}
+
+.img {
+    size: 15px;
+}
+
+.section-header{
+    text-align: center;
+    padding: 6px;
+    background: rgb(236, 219, 197);
+    color: red;
+}
+
+.figcaption-header{
+    text-decoration: underline;
+}
